@@ -34,11 +34,13 @@ justify-content: flex-start;
   align-self: center;
   justify-self: center;
   margin-right: calc(100vw/2);
+  font-size:50px;
 }
 
 .description {
   display: flex;
  gap: 70px;
+ flex-wrap: wrap;
 
 }
 .heady{

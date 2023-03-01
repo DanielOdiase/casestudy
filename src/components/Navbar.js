@@ -9,9 +9,9 @@ function Navbar() {
    <>
    <nav>
    <div className="logo">
-        <Image src="/IMG_0129.JPG" alt="site logo" width={100} height={77} />
+        <Image src="/IMG_0129.JPG" alt="site logo" width={100} height={100} />
       </div>
-      <h1 className={styles.intro}>Case Study</h1>
+      <div className={styles.intro}>Case Study</div>
    </nav>
    </>
   )

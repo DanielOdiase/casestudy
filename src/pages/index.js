@@ -79,7 +79,7 @@ export default function Home() {
        <div>
         <h1>Problems and Thought Process</h1>
         <p> Restaurant X contacted Oke Studios for a site redesign. They were looking to customize new features for client engagemnent. The problem they had was that the website  was created using a template webflow shopify theme, which did not allow for desired customization.
-          Thats when I come in</p> <div className={styles.images}><br/> <Image src='/giphy.gif' width={480} height={400} /><br/> </div> 
+          Thats when I come in</p> <div className={styles.images}><br/> <Image src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmM0ZWNiYmZmODdmNzA2M2YwZTM3NjIwN2IyNTI0MWU4NGRhMGFkMyZjdD1n/l1gYcLBSdL7PoDsizo/giphy.gif' width={480} height={400} quality={100} /><br/> </div> 
           <p>I was brought into the project to by Oke Studios to figure out a way to meet the clients desire 
             to customize site regularly and keep using the Shopify platform. 
             My brain went to working, and to satisfy this request I suggested working with a decoupled architecture. 
