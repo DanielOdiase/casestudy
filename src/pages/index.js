@@ -96,7 +96,7 @@ export default function Home() {
        </div>
        <div>
         <h1>Future Challenges </h1>
-        <p>While migrating to the Next Js framework, I had to rewrite a lot of the code uused to create the previous website from Scratch , which was a long process . For future projects the challenges /tasks to streamline a webflow conversion will be the following 
+        <p>While migrating to the Next Js framework, I had to rewrite a lot of the code used to create the previous website from scratch,which was a long process . For future projects in order to streamline a Webflow conversion i would most likely ...
        </p> <p>{'a).'}Getting a full understanding of how the Udesly platform works with Webflow to produce Jamstack code for 11ty .You can check out more details on this <strong style={{color:'RED'}}><Link href ="https://www.udesly.com/webflow-to-jamstack/">here</Link></strong></p>
           <p>{'b).'} Play around with 11ty to get a better understanding on how it handles dynamic data </p>
        </div>
