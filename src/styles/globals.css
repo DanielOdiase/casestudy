@@ -6,9 +6,15 @@ body {
   font-family: "Nunito";
   overflow-x: hidden;
   scroll-behavior: smooth;
-  min-width: 897px;
-  
+}
 
+@media only screen and (max-width: 320px) {
+  body {
+    display : flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+  }
 }
 a {
   color: #333;
@@ -20,14 +26,14 @@ a {
 }
 nav {
   margin: 5px auto 60px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  padding: 40px 0;
+  display: block;
+  text-align: center;
   border-bottom: 1px solid #ddd;
   font-family: "Nunito";
   background-color:rgb(18, 30, 39);
   color: white;
+  font-size: 50px;
 }
 nav .logo {
   margin-right: auto;

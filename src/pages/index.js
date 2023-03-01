@@ -50,7 +50,7 @@ export default function Home() {
        </div>
 
        <div className={styles.image1}>
-       <Image src="/szn1.png" alt="site logo" width={600} height={500} />
+       <Image src="/szn1.png" alt="site logo" width={500} height={400} quality={100}  />
        </div>
        <div>
         <h1>Project Purpose and Goal</h1>
