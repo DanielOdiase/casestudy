@@ -84,7 +84,7 @@ export default function Home() {
             My brain went to working, and to satisfy this request I suggested working with a decoupled architecture. 
             This method seperates the front-end and back-end systems , which would allow the front-end to be 
             fully customizable, as well as keep the products on Shopify.
-         The front-end {`(NextJs)`}would receive data from <strong>Shopify via Shopify's storefront Api keys </strong><br/> <strong style={{color:'red' ,fontStyle:'italic'}}> *Sidenote i originally planned on using 11ty because I found a platform {`(Udesly)`} that transforms webflow code to Jamstack {`(11ty) code`}this might still be done ,stay tuned</strong>  😉. <br/> </p> 
+         The front-end {`(NextJs)`}would receive data from <strong>Shopify via Shopify's storefront Api keys </strong><br/> <strong style={{color:'red' ,fontStyle:'italic'}}> *Sidenote i originally planned on using 11ty because I found a platform {`(Udesly)`} that transforms webflow code to Jamstack {`(11ty) code`} this might still be done ,stay tuned</strong>  😉. <br/> </p> 
          <p><strong>I mapped the data using GraphQL queries</strong> to build static pages and utilized next js server side rendering for dynamic data <br/> </p>
          <br/> <div className={styles.images}><Image src="/GraphqlImg.png" width={400} height={300}/></div>
          <br/><div className={styles.images}><Image src="/staticgeneration.png" width={400} height={300}/>
