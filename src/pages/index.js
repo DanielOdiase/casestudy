@@ -24,6 +24,16 @@ export default function Home() {
 <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://drive.google.com/file/d/1UPfBC84zOiQHghbBQ4tfu9lzLO2T2jKp/view?usp=share_link" />
 
 <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://restaurantcasestudy.netlify.app/" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:domain" content="https://restaurantcasestudy.netlify.app/" />
+
+<meta name="twitter:title" content="Webflow to Jamstack ." />
+
+<meta name="twitter:description" content="Case Study --Converting Webflow to Jamstack ." />
+
+<meta name="twitter:image" content="https://drive.google.com/file/d/1UPfBC84zOiQHghbBQ4tfu9lzLO2T2jKp/view?usp=share_link" />
+
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar /> 
