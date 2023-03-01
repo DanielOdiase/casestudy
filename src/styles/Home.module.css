@@ -38,8 +38,8 @@ justify-content: flex-start;
 }
 
 @media only screen and (max-width: 375px) {
-  .image1 {
- 
+  .description {
+ display: block;
    
   }
 }
