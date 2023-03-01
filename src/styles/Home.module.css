@@ -1,17 +1,10 @@
 .main{
-padding: 0 250px;
+padding-left: 100px;
+padding-right: 100px;
 font-weight: 400;
-
-    font-kerning: normal
+    font-kerning: normal;
 }
 
-@media only screen and (max-width: 375px) {
-  .main {
-    display : flex;
-    flex-direction: column;
-   padding: 20px;
-  }
-}
 .title {
   color: #333;
   padding-bottom: 20px;
@@ -31,17 +24,10 @@ font-weight: 400;
   text-align: center;
 }
 .image1{
-display: flex;
-align-self: center;
-justify-content: flex-start;
+  position: relative;
+  width: 80%;
+  height:50vh;
 
-}
-
-@media only screen and (max-width: 375px) {
-  .description {
- display: block;
-   
-  }
 }
 .intro{
   display: flex; 
@@ -64,7 +50,309 @@ justify-content: flex-start;
 
 }
 .images{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  width: 100%;
+  height:50vh;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-kerning: normal;
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+   
+    }
+
+    .introP{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    
+    .title {
+      color: #333;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .text {
+      color: #777;
+    }
+    .btn {
+      display: block;
+      width: 150px;
+      padding: 8px 0;
+      margin: 20px auto;
+      background: #4979ff;
+      border-radius: 4px;
+      color: white;
+      text-align: center;
+    }
+    .image1{
+      position: relative;
+     width: 100%;
+     height:50vh;
+    }
+    .intro{
+      display: flex; 
+      align-self: center;
+      justify-self: center;
+      margin-right: calc(100vw/2);
+      font-size:30px;
+    }
+    
+    .description {
+      display: flex;
+     gap: 70px;
+     flex-wrap: wrap;
+    
+    }
+    .heady{
+      font-style: italic;
+      font-size: 20px;
+      color: grey;
+    
+    }
+    .images{
+  position: relative;
+  width: 100%;
+  height:50vh;
+    }
+  
+} /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main{
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-weight: 400;
+        font-kerning: normal
+    }
+    
+    .title {
+      color: #333;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .text {
+      color: #777;
+    }
+    .btn {
+      display: block;
+      width: 150px;
+      padding: 8px 0;
+      margin: 20px auto;
+      background: #4979ff;
+      border-radius: 4px;
+      color: white;
+      text-align: center;
+    }
+    .image1{
+      position: relative;
+      width: 100%;
+      height:50vh;
+    
+    }
+    .intro{
+      display: flex; 
+      align-self: center;
+      justify-self: center;
+      margin-right: calc(100vw/2);
+      font-size:50px;
+    }
+    
+    .description {
+      display: flex;
+     gap: 70px;
+     flex-wrap: wrap;
+    
+    }
+    .heady{
+      font-style: italic;
+      font-size: 20px;
+      color: grey;
+    
+    }
+    .images{
+  position: relative;
+  width: 100%;
+  height:50vh;
+    }
+} /* Medium devices (landscape tablets, 768px and up) */ 
+@media only screen and (min-width: 768px) {.main{
+  padding-left: 50px ;
+  padding-right: 50px;
+  font-weight: 400;
+      font-kerning: normal
+  }
+  
+  .title {
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .text {
+    color: #777;
+  }
+  .btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #4979ff;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+  }
+  .image1{
+    position: relative;
+    width: 70%;
+    height:50vh;
+  
+  }
+  .intro{
+    display: flex; 
+    align-self: center;
+    justify-self: center;
+    margin-right: calc(100vw/2);
+    font-size:50px;
+  }
+  
+  .description {
+    display: flex;
+   gap: 70px;
+   flex-wrap: wrap;
+  
+  }
+  .heady{
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+  
+  }
+  .images{
+  position: relative;
+  width: 70%;
+  height:50vh;
+  }
+} /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main{
+    padding-left:100px;
+    padding-right: 100px;
+    font-weight: 400;
+     font-kerning: normal
+    }
+    
+    .title {
+      color: #333;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .text {
+      color: #777;
+    }
+    .btn {
+      display: block;
+      width: 150px;
+      padding: 8px 0;
+      margin: 20px auto;
+      background: #4979ff;
+      border-radius: 4px;
+      color: white;
+      text-align: center;
+    }
+    .image1{
+      position: relative;
+      width: 60%;
+      height:50vh;
+    
+    }
+    .intro{
+      display: flex; 
+      align-self: center;
+      justify-self: center;
+      margin-right: calc(100vw/2);
+      font-size:50px;
+    }
+    
+    .description {
+      display: flex;
+     gap: 70px;
+     flex-wrap: wrap;
+    
+    }
+    .heady{
+      font-style: italic;
+      font-size: 20px;
+      color: grey;
+    
+    }
+    .images{
+      position: relative;
+      width: 60%;
+      height:50vh;
+    }
+} /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 400;
+    overflow-x: hidden;
+        font-kerning: normal
+    }
+    
+    .title {
+      color: #333;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .text {
+      color: #777;
+    }
+    .btn {
+      display: block;
+      width: 150px;
+      padding: 8px 0;
+      margin: 20px auto;
+      background: #4979ff;
+      border-radius: 4px;
+      color: white;
+      text-align: center;
+    }
+    .image1{
+      position: relative;
+      width: 60%;
+      height:50vh;
+      
+    }
+    .intro{
+      display: flex; 
+      align-self: center;
+      justify-self: center;
+      margin-right: calc(100vw/2);
+      font-size:50px;
+    }
+    
+    .description {
+      display: flex;
+     gap: 70px;
+     flex-wrap: wrap;
+    
+    }
+    .heady{
+      font-style: italic;
+      font-size: 20px;
+      color: grey;
+    
+    }
+    .images{
+      position: relative;
+      width: 60%;
+      height:50vh;
+    }
+  }

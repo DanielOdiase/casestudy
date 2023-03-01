@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <Navbar /> 
       <main className={styles.main}>
-       <div>
+       <div className={styles.introP}>
          <h1>Webflow - Jamstack- Shopify Restaurant Project</h1>
          <p>
 4 minute read
@@ -70,7 +70,7 @@ export default function Home() {
        </div>
 
        <div className={styles.image1}>
-       <Image src="/szn1.png" alt="site logo" width={500} height={400} quality={100}  />
+       <Image src="/szn1.png" alt="site logo"  fill sizes='100vw' />
        </div>
        <div>
         <h1>Project Purpose and Goal</h1>
@@ -97,7 +97,7 @@ export default function Home() {
        <div>
         <h1>Problems and Thought Process</h1>
         <p> Restaurant X contacted Oke Studios for a site redesign. They were looking to customize new features for client engagemnent. The problem they had was that the website  was created using a template webflow shopify theme, which did not allow for desired customization.
-          Thats when I come in</p> <div className={styles.images}><br/> <Image src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmM0ZWNiYmZmODdmNzA2M2YwZTM3NjIwN2IyNTI0MWU4NGRhMGFkMyZjdD1n/l1gYcLBSdL7PoDsizo/giphy.gif' width={480} height={400} unoptimized={true}/><br/> </div> 
+          Thats when I come in</p> <div className={styles.images}><br/> <Image src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmM0ZWNiYmZmODdmNzA2M2YwZTM3NjIwN2IyNTI0MWU4NGRhMGFkMyZjdD1n/l1gYcLBSdL7PoDsizo/giphy.gif' fill sizes='100vw' unoptimized={true}/><br/> </div> 
           <p>I was brought into the project to by Oke Studios to figure out a way to meet the clients desire 
             to customize site regularly and keep using the Shopify platform. 
             My brain went to working, and to satisfy this request I suggested working with a decoupled architecture. 
@@ -105,8 +105,8 @@ export default function Home() {
             fully customizable, as well as keep the products on Shopify.
          The front-end {`(NextJs)`}would receive data from <strong>Shopify via Shopify's storefront Api keys </strong><br/> <strong style={{color:'red' ,fontStyle:'italic'}}> *Sidenote i originally planned on using 11ty because I found a platform {`(Udesly)`} that transforms webflow code to Jamstack {`(11ty) code`} this might still be done ,stay tuned</strong>  😉. <br/> </p> 
          <p><strong>I mapped the data using GraphQL queries</strong> to build static pages and utilized next js server side rendering for dynamic data <br/> </p>
-         <br/> <div className={styles.images}><Image src="/GraphqlImg.png" width={400} height={300}/></div>
-         <br/><div className={styles.images}><Image src="/staticgeneration.png" width={400} height={300}/>
+         <br/> <div className={styles.images}><Image src="/GraphqlImg.png" fill sizes='100vw'/></div>
+         <br/><div className={styles.images}><Image src="/staticgeneration.png" fill sizes='100vw'/>
           <br/>  </div>
        </div>
        <div>
